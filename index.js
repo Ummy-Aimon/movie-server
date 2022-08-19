@@ -9,7 +9,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 app.use(cors())
 app.use(express.json())
 
-
+// 
 // MongoDB Atlast
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.0ergu.mongodb.net/?retryWrites=true&w=majority`;
